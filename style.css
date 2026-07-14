@@ -171,7 +171,7 @@ button:active {
 }
 
 #highlights:before {
-  top: 1px;
+  top: 40px;
   transform: translateY(-100%);
 }
 
