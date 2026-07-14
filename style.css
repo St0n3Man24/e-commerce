@@ -77,7 +77,7 @@ li {
 }
 
 header {
-  height: calc(130vh - 80px);
+  height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -88,6 +88,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 32px;
   padding-top: 24px;
 }
 
@@ -128,8 +129,14 @@ button:active {
 }
 
 .header__img--wrapper {
-  padding: 80px;
+  padding: 20px;
+  position: relative;
   z-index: 100;
+}
+
+.header_img--wrapper img {
+  max-height: 48vh;
+  object-fit: contain;
 }
 
 .container {
