@@ -131,7 +131,7 @@ button:active {
 .header__img--wrapper {
   padding: 20px;
   position: relative;
-  z-index: 100;
+  z-index: 1;
 }
 
 .header__img--wrapper img {
@@ -154,6 +154,7 @@ button:active {
 #highlights {
   position: relative;
   max-width: 100vw;
+  z-index: 2;
 }
 
 #highlights:before,
