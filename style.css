@@ -134,7 +134,7 @@ button:active {
   z-index: 100;
 }
 
-.header_img--wrapper img {
+.header__img--wrapper img {
   max-height: 48vh;
   object-fit: contain;
 }
@@ -221,4 +221,21 @@ button:active {
   height: 1000px;
   background-color: rgba(115, 66, 214, 0.1);
   padding-top: 8vw;
+}
+
+.books {
+  display: flex;
+}
+
+.book {
+  width: 25%;
+  padding: 24px;
+}
+
+.book__img {
+  max-height: 380px;
+}
+
+.book__img--wrapper {
+
 }
